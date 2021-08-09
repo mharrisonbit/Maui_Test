@@ -1,12 +1,12 @@
-﻿<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:windows="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific;assembly=Microsoft.Maui.Controls"
-             xmlns:local="clr-namespace:Maui_Test"
-             x:Class="Maui_Test.App"
-             windows:Application.ImageDirectory="Assets">
-    <Application.Resources>
+﻿<prism:PrismApplication xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                        xmlns:windows="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific;assembly=Microsoft.Maui.Controls"
+                        xmlns:local="clr-namespace:Maui_Test"
+                        x:Class="Maui_Test.App"
+                        xmlns:prism="clr-namespace:Prism;assembly=Prism.Maui"
+                        windows:Application.ImageDirectory="Assets">
+    <prism:PrismApplication.Resources>
         <ResourceDictionary>
-
             <Color x:Key="PageBackgroundColor">#512bdf</Color>
             <Color x:Key="PrimaryTextColor">White</Color>
 
@@ -21,7 +21,6 @@
                 <Setter Property="BackgroundColor" Value="#2b0b98" />
                 <Setter Property="Padding" Value="14,10" />
             </Style>
-
         </ResourceDictionary>
-    </Application.Resources>
-</Application>
+    </prism:PrismApplication.Resources>
+</prism:PrismApplication>

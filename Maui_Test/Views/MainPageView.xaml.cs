@@ -1,11 +1,11 @@
 ﻿using System;
 using Microsoft.Maui.Controls;
 
-namespace Maui_Test
+namespace Maui_Test.Views
 {
-	public partial class MainPage : ContentPage
+	public partial class MainPageView : ContentPage
 	{
-		public MainPage()
+		public MainPageView()
 		{
 			InitializeComponent();
 		}
